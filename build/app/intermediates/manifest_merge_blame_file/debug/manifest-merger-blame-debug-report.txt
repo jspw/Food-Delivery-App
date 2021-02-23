@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.customer_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:9:2-64
+14-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:9:19-61
+15    <!-- allows internet connection -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:11:2-76
+16-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:11:19-73
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:12:2-78
+17-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:12:19-75
+18
+19    <application
+19-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:13:2-40:16
+20        android:name="io.flutter.app.FlutterApplication"
+20-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:13:15-63
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.2.0] /home/jspw/.gradle/caches/transforms-2/files-2.1/078cfc1ed75557361985d68548cae92e/core-1.2.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:13:93-127
+24        android:label="customer_app" >
+24-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:13:64-92
+25        <activity
+25-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:14:3-34:14
+26            android:name="com.example.customer_app.MainActivity"
+26-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:14:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:14:108-258
+28            android:hardwareAccelerated="true"
+28-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:14:259-293
+29            android:launchMode="singleTop"
+29-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:14:42-72
+30            android:theme="@style/LaunchTheme"
+30-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:14:73-107
+31            android:windowSoftInputMode="adjustResize" >
+31-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:14:294-336
+32
+33            <!--
+34			Specifies an Android theme to apply to this Activity as soon as
+35			the Android process has started. This theme is visible to the user
+36			while the Flutter UI initializes. After that, this theme continues
+37			to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:21:4-111
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:21:15-70
+41                android:resource="@style/NormalTheme" />
+41-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:21:71-108
+42            <!--
+43			Displays an Android View that continues showing the launch screen
+44			Drawable until Flutter paints its first frame, then this splash
+45			screen fades out. A splash screen is useful to avoid any visual
+46			gap between the end of Android's launch screen and the painting of
+47			Flutter's first frame.
+48            -->
+49            <meta-data
+49-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:29:4-129
+50                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+50-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:29:15-79
+51                android:resource="@drawable/launch_background" />
+51-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:29:80-126
+52
+53            <intent-filter>
+53-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:30:4-33:20
+54                <action android:name="android.intent.action.MAIN" />
+54-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:31:5-57
+54-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:31:13-54
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:32:5-65
+56-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:32:15-62
+57            </intent-filter>
+58        </activity>
+59        <!--
+60		Don't delete the meta-data below.
+61		This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+62        -->
+63        <meta-data
+63-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:39:3-66
+64            android:name="flutterEmbedding"
+64-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:39:14-45
+65            android:value="2" />
+65-->/home/jspw/Documents/Projects/Food Delivery Customer App/customer_app/android/app/src/main/AndroidManifest.xml:39:46-63
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:17.2.1] /home/jspw/.gradle/caches/transforms-2/files-2.1/00b202dbafbe3d0d935f88c66c976925/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:17.2.1] /home/jspw/.gradle/caches/transforms-2/files-2.1/00b202dbafbe3d0d935f88c66c976925/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:17.2.1] /home/jspw/.gradle/caches/transforms-2/files-2.1/00b202dbafbe3d0d935f88c66c976925/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:17.2.1] /home/jspw/.gradle/caches/transforms-2/files-2.1/00b202dbafbe3d0d935f88c66c976925/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:17.2.1] /home/jspw/.gradle/caches/transforms-2/files-2.1/97121c77e271785378e04f0a73b75768/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:17.2.1] /home/jspw/.gradle/caches/transforms-2/files-2.1/97121c77e271785378e04f0a73b75768/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:17.2.1] /home/jspw/.gradle/caches/transforms-2/files-2.1/97121c77e271785378e04f0a73b75768/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>
